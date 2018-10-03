@@ -1,9 +1,15 @@
 import setuptools
 
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
 setuptools.setup(
     name='atiiaftt',
     version='0.1',
     description="""CFFI wrap of ATI-IA force-torque sensor transform c library""",
+    long_description=readme(),
+    long_description_content_type="text/x-rst",
     url='https://github.com/shayden--/atiiaftt',
     download_url='https://github.com/shayden--/atiiaftt/tarball/0.1',
     author='Tyson Boer',
