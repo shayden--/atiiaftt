@@ -1,0 +1,12 @@
+# atiiaftt (ATI AI force-torque transforms) changelog
+
+## 0.1
+
+2018-10-03
+
+### Added
+
+- cffi build and setup files
+- python wrapper/interface classes
+- example code for python classes and cffi objects
+- unit tests as per `ATIDAQ_c_lib/Samples/ftconvert.c`

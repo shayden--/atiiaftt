@@ -1,0 +1,13 @@
+include LICENSE.txt
+include changelog.txt
+include README.rst
+include ATIDAQ_c_lib_readme.txt
+include setup.py
+include atiiaftt
+include atiiaftt/ft_interface.py
+include atiiaftt/__init__.py
+include atiiaftt/samples
+include atiiaftt/samples/ftconvert.py
+recursive-include ATIDAQ_c_lib *
+recursive-include ATIDAQ_c_lib/ATIDAQ *
+recursive-include ATIDAQ_c_lib/Samples *
