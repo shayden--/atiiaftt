@@ -3,6 +3,7 @@ include changelog.txt
 include README.rst
 include ATIDAQ_c_lib_readme.txt
 include setup.py
+include cffi_build.py
 include atiiaftt
 include atiiaftt/ft_interface.py
 include atiiaftt/__init__.py
