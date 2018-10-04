@@ -1,6 +1,12 @@
 # atiiaftt (ATI AI force-torque transforms) changelog
 
-## 0.1
+## 0.1.1
+
+2018-10-04444
+
+### Added
+
+- cffi build to MANIFEST.in
 
 2018-10-03
 
